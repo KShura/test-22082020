@@ -1,6 +1,26 @@
 
 body
 {
-    padding:0px 
+    padding:0px;
     margin:0px;
+    font-family:Arial;
+}
+.text-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.text
+{
+    font-size:120px;
+    font-weight:700;
+    color:#fdd;
+
+}
+.text-pop-up-top 
+{
+	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
